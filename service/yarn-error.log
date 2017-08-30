@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\xujf\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;D:\Program Files\mysql-5.6.17-winx64\bin;C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;D:\Program Files\Git\cmd;D:\android\sdk\tools;D:\android\sdk\platform-tools;C:\Program Files\nodejs\;D:\网中网\10_React Native\01环境搭建\mongodb\bin;C:\Users\xujf\AppData\Roaming\npm;D:\Program Files\Microsoft VS Code\bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  6.2.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "service",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "body-parser": "~1.15.1",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.2.0",
+      "ejs": "~2.4.1",
+      "express": "~4.13.4",
+      "express-session": "^1.14.1",
+      "morgan": "~1.7.0",
+      "serve-favicon": "~2.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'D:\Workspaces\react-native-app\react-native-full-example-master\service\node_modules\body-parser'
+      at Error (native)
